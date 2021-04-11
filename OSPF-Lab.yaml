@@ -2,7 +2,7 @@ lab:
   description: ''
   notes: ''
   timestamp: 1618175623.1677866
-  title: CCNA LAB
+  title: OSPFLab
   version: 0.0.3
 nodes:
   - id: n0
@@ -38,7 +38,7 @@ nodes:
     node_definition: iosvl2
     x: -250
     y: -150
-    configuration: hostname inserthostname_here
+    configuration: hostname SA1-SW1
     image_definition: iosvl2-2019
     tags: []
     interfaces:
@@ -72,7 +72,7 @@ nodes:
       # /etc/hosts entry as well
       # hostname inserthostname_here
       # like this:
-      # echo "127.0.0.1   inserthostname_here" >>/etc/hosts
+      # echo "127.0.0.1   alpine-0" >>/etc/hosts
     image_definition: alpine-3-10-base
     tags: []
     interfaces:
@@ -141,7 +141,7 @@ nodes:
     node_definition: iosvl2
     x: -450
     y: -150
-    configuration: hostname inserthostname_here
+    configuration: hostname SA2-SW1
     image_definition: iosvl2-2019
     tags: []
     interfaces:
@@ -175,7 +175,7 @@ nodes:
       # /etc/hosts entry as well
       # hostname inserthostname_here
       # like this:
-      # echo "127.0.0.1   inserthostname_here" >>/etc/hosts
+      # echo "127.0.0.1   alpine-1" >>/etc/hosts
     image_definition: alpine-3-10-base
     tags: []
     interfaces:
@@ -328,7 +328,7 @@ nodes:
     node_definition: iosvl2
     x: -600
     y: -750
-    configuration: hostname inserthostname_here
+    configuration: hostname SB1-SW1
     image_definition: iosvl2-2019
     tags: []
     interfaces:
@@ -356,7 +356,7 @@ nodes:
     node_definition: iosvl2
     x: -700
     y: -500
-    configuration: hostname inserthostname_here
+    configuration: hostname SB2-SW1
     image_definition: iosvl2-2019
     tags: []
     interfaces:
@@ -384,7 +384,7 @@ nodes:
     node_definition: iosvl2
     x: 0
     y: -700
-    configuration: hostname inserthostname_here
+    configuration: hostname SC1-SW1
     image_definition: iosvl2-2019
     tags: []
     interfaces:
@@ -418,7 +418,7 @@ nodes:
       # /etc/hosts entry as well
       # hostname inserthostname_here
       # like this:
-      # echo "127.0.0.1   inserthostname_here" >>/etc/hosts
+      # echo "127.0.0.1   alpine-2" >>/etc/hosts
     image_definition: alpine-3-10-base
     tags: []
     interfaces:
@@ -437,7 +437,7 @@ nodes:
       # /etc/hosts entry as well
       # hostname inserthostname_here
       # like this:
-      # echo "127.0.0.1   inserthostname_here" >>/etc/hosts
+      # echo "127.0.0.1   alpine-3" >>/etc/hosts
     image_definition: alpine-3-10-base
     tags: []
     interfaces:
@@ -456,7 +456,7 @@ nodes:
       # /etc/hosts entry as well
       # hostname inserthostname_here
       # like this:
-      # echo "127.0.0.1   inserthostname_here" >>/etc/hosts
+      # echo "127.0.0.1   alpine-4" >>/etc/hosts
     image_definition: alpine-3-10-base
     tags: []
     interfaces:
