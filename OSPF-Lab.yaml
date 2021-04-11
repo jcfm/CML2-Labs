@@ -1,9 +1,9 @@
 lab:
-  description: ''
+  description: 'Sample OSPF compatible routing lab with simulated ASBRs, multi area topology and multi-network areas'
   notes: ''
   timestamp: 1618175623.1677866
   title: OSPFLab
-  version: 0.0.3
+  version: 0.1.2
 nodes:
   - id: n0
     label: SA1-R1
