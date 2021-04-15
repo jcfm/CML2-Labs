@@ -1,6 +1,6 @@
 lab:
   description: v0.1 of a MPLS Test lab for trying out MPLS following https://www.cisco.com/c/en/us/support/docs/multiprotocol-label-switching-mpls/mpls/13733-mpls-vpn-basic.html
-  notes: 'WIP no where near complete'
+  notes: 'WIP not complete'
   timestamp: 1618182121.756344
   title: MPLS Lab
   version: 0.0.3
